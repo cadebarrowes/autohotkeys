@@ -1,0 +1,9 @@
+﻿!a::send, á
+!e::send, é
+!i::send, í
+!o::send, ó
+!u::send, ú
+!n::send, ñ
+!+/::send, ¿
+!+1::send, ¡
+!-::send, –
