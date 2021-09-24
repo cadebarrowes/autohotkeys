@@ -1,5 +1,5 @@
-﻿~$LShift::
-	KeyWait, LShift
+~$Shift::
+	KeyWait, Shift
 	If (A_ThisHotkey = A_PriorHotkey) && (A_TimeSincePriorHotkey < 400)
 		SetCapsLockState, % ((GetKeyState("CapsLock", "T") = 1) ? "Off" : "On")
 	Else
