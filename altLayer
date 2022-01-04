@@ -1,0 +1,14 @@
+~$Alt::
+	KeyWait, Alt
+	If (A_ThisHotkey = A_PriorHotkey) && (A_TimeSincePriorHotkey < 400)
+		AltLayer := True
+    Else
+		AltLayer := False
+	return
+
+#if AltLayer
+h::Left
+j::Down
+k::Up
+l::Right
+i:: AltLayer := False
