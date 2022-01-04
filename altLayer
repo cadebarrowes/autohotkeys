@@ -6,9 +6,30 @@
 		AltLayer := False
 	return
 
+; !h::
+; 	AltLayer := True
+; 	send, {Left}
+
+; !j::
+; 	AltLayer := True
+; 	send, {Down}
+
+; !k::
+; 	AltLayer := True
+; 	send, {Up}
+
+; !l::
+; 	AltLayer := True
+; 	send, {Right}
+
+!h::send, {Left}
+!j::send, {Down}
+!k::send, {Up}
+!l::send, {Right}
+
 #if AltLayer
-h::Left
-j::Down
-k::Up
-l::Right
+h::send, {Left}
+j::send, {Down}
+k::send, {Up}
+l::send, {Right}
 i:: AltLayer := False
